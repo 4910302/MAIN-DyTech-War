@@ -2,6 +2,7 @@ data:extend({
  {
     type = "generator-equipment",
     name = "fusion-reactor-mk2-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk2-equipment.png",
@@ -25,6 +26,7 @@ data:extend({
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk3-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk3-equipment.png",
@@ -48,6 +50,7 @@ data:extend({
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk4-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk4-equipment.png",
@@ -71,6 +74,7 @@ data:extend({
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk5-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk5-equipment.png",
@@ -94,6 +98,7 @@ data:extend({
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk6-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk6-equipment.png",
@@ -117,6 +122,7 @@ data:extend({
   {
     type = "generator-equipment",
     name = "fusion-reactor-mk7-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/fusion-reactor-mk7-equipment.png",

@@ -2,6 +2,7 @@ data:extend({
   {
     type = "solar-panel-equipment",
     name = "solar-panel-equipment-2",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__base__/graphics/equipment/solar-panel-equipment.png",
@@ -25,6 +26,7 @@ data:extend({
   {
     type = "solar-panel-equipment",
     name = "solar-panel-equipment-3",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__base__/graphics/equipment/solar-panel-equipment.png",
@@ -48,6 +50,7 @@ data:extend({
   {
     type = "solar-panel-equipment",
     name = "solar-panel-equipment-4",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__base__/graphics/equipment/solar-panel-equipment.png",
@@ -71,6 +74,7 @@ data:extend({
   {
     type = "solar-panel-equipment",
     name = "solar-panel-equipment-5",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__base__/graphics/equipment/solar-panel-equipment.png",

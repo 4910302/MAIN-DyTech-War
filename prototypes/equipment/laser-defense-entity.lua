@@ -4,6 +4,7 @@ data:extend({
   {
     type = "active-defense-equipment",
     name = "laser-defense-equipment-2",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk2-equipment.png",
@@ -61,6 +62,7 @@ data:extend({
   {
     type = "active-defense-equipment",
     name = "laser-defense-equipment-3",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk3-equipment.png",
@@ -118,6 +120,7 @@ data:extend({
   {
     type = "active-defense-equipment",
     name = "laser-defense-mk4-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk4-equipment.png",
@@ -175,6 +178,7 @@ data:extend({
   {
     type = "active-defense-equipment",
     name = "laser-defense-mk5-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk5-equipment.png",
@@ -233,6 +237,7 @@ data:extend({
  {
     type = "active-defense-equipment",
     name = "laser-defense-mk6-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk6-equipment.png",
@@ -292,6 +297,7 @@ data:extend({
   {
     type = "active-defense-equipment",
     name = "laser-defense-mk7-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/laser-defense-mk7-equipment.png",

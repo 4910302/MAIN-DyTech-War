@@ -2,6 +2,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk2-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk2-equipment.png",
@@ -26,6 +27,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk3-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk3-equipment.png",
@@ -50,6 +52,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk4-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk4-equipment.png",
@@ -74,6 +77,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk5-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk5-equipment.png",
@@ -98,6 +102,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk6-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk6-equipment.png",
@@ -122,6 +127,7 @@ data:extend({
   {
     type = "movement-bonus-equipment",
     name = "exoskeleton-mk7-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/exoskeleton-mk7-equipment.png",

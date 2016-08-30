@@ -3,6 +3,7 @@ data:extend({
     type = "roboport-equipment",
     name = "personal-roboport-equipment-1",
     take_result = "personal-roboport-equipment-1",
+	categories = {"armor"},
     sprite =
     {
       filename = "__base__/graphics/equipment/personal-roboport-equipment.png",
@@ -65,6 +66,7 @@ data:extend({
     type = "roboport-equipment",
     name = "personal-roboport-equipment-2",
     take_result = "personal-roboport-equipment-2",
+	categories = {"armor"},
     sprite =
     {
       filename = "__base__/graphics/equipment/personal-roboport-equipment.png",

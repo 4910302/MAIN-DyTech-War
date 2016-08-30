@@ -2,6 +2,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk3-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk3-equipment.png",
@@ -27,6 +28,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk4-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk4-equipment.png",
@@ -52,6 +54,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk5-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk5-equipment.png",
@@ -77,6 +80,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk6-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk6-equipment.png",
@@ -102,6 +106,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk7-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk7-equipment.png",
@@ -131,6 +136,7 @@ data:extend({
     {
     type = "battery-equipment",
     name = "battery-mk3-equipment-horizontal",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk3-equipment-horizontal.png",
@@ -156,6 +162,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk4-equipment-horizontal",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk5-equipment-horizontal.png",
@@ -181,6 +188,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk5-equipment-horizontal",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk5-equipment-horizontal.png",
@@ -206,6 +214,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk6-equipment-horizontal",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk6-equipment-horizontal.png",
@@ -231,6 +240,7 @@ data:extend({
   {
     type = "battery-equipment",
     name = "battery-mk7-equipment-horizontal",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/battery-mk7-equipment-horizontal.png",

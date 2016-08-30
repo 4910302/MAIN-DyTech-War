@@ -2,6 +2,7 @@ data:extend({
    {
     type = "energy-shield-equipment",
     name = "energy-shield-mk3-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/energy-shield-mk3-equipment.png",
@@ -28,6 +29,7 @@ data:extend({
   {
     type = "energy-shield-equipment",
     name = "energy-shield-mk4-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/energy-shield-mk4-equipment.png",
@@ -54,6 +56,7 @@ data:extend({
   {
     type = "energy-shield-equipment",
     name = "energy-shield-mk5-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/energy-shield-mk5-equipment.png",
@@ -80,6 +83,7 @@ data:extend({
   {
     type = "energy-shield-equipment",
     name = "energy-shield-mk6-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/energy-shield-mk6-equipment.png",
@@ -106,6 +110,7 @@ data:extend({
   {
     type = "energy-shield-equipment",
     name = "energy-shield-mk7-equipment",
+	categories = {"armor"},
     sprite = 
     {
       filename = "__MAIN-DyTech-War__/graphics/equipment/energy-shield-mk7-equipment.png",
