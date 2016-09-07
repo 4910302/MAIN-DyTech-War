@@ -2,13 +2,53 @@ require "prototypes.internal-config"
 
 data.raw["armor"]["modular-armor"].resistances = Resistances.Tier5
 data.raw["armor"]["modular-armor"].durability = ModularArmor.Dura1
-data.raw["armor"]["modular-armor"].equipment_grid = ModularArmor.GridTier1
+data.raw["armor"]["modular-armor"].equipment_grid = "small-equipment-grid"
 data.raw["armor"]["power-armor"].resistances = Resistances.Tier6
 data.raw["armor"]["power-armor"].durability = ModularArmor.Dura2
-data.raw["armor"]["power-armor"].equipment_grid = ModularArmor.GridTier2
+data.raw["armor"]["power-armor"].equipment_grid = "medium-equipment-grid"
 data.raw["armor"]["power-armor-mk2"].resistances = Resistances.Tier7
 data.raw["armor"]["power-armor-mk2"].durability = ModularArmor.Dura3
-data.raw["armor"]["power-armor-mk2"].equipment_grid = ModularArmor.GridTier3
+data.raw["armor"]["power-armor-mk2"].equipment_grid = "large-equipment-grid"
+
+data:extend(
+{
+  {
+    type = "equipment-grid",
+    name = "larger-equipment-grid",
+    width = 14,
+    height = 14,
+    equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "largerer-equipment-grid",
+    width = 18,
+    height = 18,
+    equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "big-equipment-grid",
+    width = 22,
+    height = 22,
+    equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "bigger-equipment-grid",
+    width = 26,
+    height = 26,
+    equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "huge-equipment-grid",
+    width = 30,
+    height = 30,
+    equipment_categories = {"armor"}
+  }
+}
+)
 
 data:extend(
 {
@@ -22,8 +62,8 @@ data:extend(
     subgroup = "dytech-combat-armor",
     order = "06",
     stack_size = 1,
-    equipment_grid = ModularArmor.GridTier4,
-	inventory_size_bonus = 40,
+    equipment_grid = "larger-equipment-grid",
+   inventory_size_bonus = 40,
   },
   {
     type = "armor",
@@ -35,8 +75,8 @@ data:extend(
     subgroup = "dytech-combat-armor",
     order = "07",
     stack_size = 1,
-    equipment_grid = ModularArmor.GridTier5,
-	inventory_size_bonus = 50,
+    equipment_grid = "largerer-equipment-grid",
+   inventory_size_bonus = 50,
   },
   {
     type = "armor",
@@ -48,8 +88,8 @@ data:extend(
     subgroup = "dytech-combat-armor",
     order = "08",
     stack_size = 1,
-    equipment_grid = ModularArmor.GridTier6,
-	inventory_size_bonus = 60,
+    equipment_grid = "big-equipment-grid",
+   inventory_size_bonus = 60,
   },
   {
     type = "armor",
@@ -61,8 +101,8 @@ data:extend(
     subgroup = "dytech-combat-armor",
     order = "09",
     stack_size = 1,
-    equipment_grid = ModularArmor.GridTier7,
-	inventory_size_bonus = 70,
+    equipment_grid = "bigger-equipment-grid",
+   inventory_size_bonus = 70,
   },
   {
     type = "armor",
@@ -74,8 +114,8 @@ data:extend(
     subgroup = "dytech-combat-armor",
     order = "10",
     stack_size = 1,
-    equipment_grid = ModularArmor.GridTier8,
-	inventory_size_bonus = 80,
+    equipment_grid = "huge-equipment-grid",
+   inventory_size_bonus = 80,
   },
 }
 )

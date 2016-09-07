@@ -23,7 +23,54 @@ data:extend(
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
     mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-    pictures = WallSetup(SandWall)
+    pictures = WallSetup(SandWall),
+	wall_diode_green =
+    {
+      filename = "__base__/graphics/entity/gate/wall-diode-green.png",
+      width = 21,
+      height = 22,
+      shift = {0, -0.78125}
+    },
+    wall_diode_green_light =
+    {
+      minimum_darkness = 0.3,
+      color = {g=1},
+      shift = {0, -0.78125},
+      size = 1,
+      intensity = 0.3
+    },
+    wall_diode_red =
+    {
+      filename = "__base__/graphics/entity/gate/wall-diode-red.png",
+      width = 21,
+      height = 22,
+      shift = {0, -0.78125}
+    },
+    wall_diode_red_light =
+    {
+      minimum_darkness = 0.3,
+      color = {r=1},
+      shift = {0, -0.78125},
+      size = 1,
+      intensity = 0.3
+    },
+
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {0.890625, 0.828125},
+        green = {0.890625, 0.703125}
+      },
+      wire =
+      {
+        red = {-0.28125, -0.71875},
+        green = {-0.28125, -0.84375}
+      }
+    },
+    circuit_wire_max_distance = 7.5,
+    circuit_connector_sprites = get_circuit_connector_sprites({0, -0.59375}, nil, 6),
+    default_output_signal = data.is_demo and "signal-green" or "signal-G"
   },
   {
     type = "corpse",

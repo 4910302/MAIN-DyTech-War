@@ -36,36 +36,6 @@ data:extend(
     horizontal_rail_base_mask = horizontal_rail_base_mask(),
     horizontal_base = horizontal_base(),
     wall_patch = wall_patch_Tint(BrickWall),
-    wall_diode_green =
-    {
-      filename = "__base__/graphics/entity/gate/wall-diode-green.png",
-      width = 21,
-      height = 22,
-      shift = {0, -0.78125}
-    },
-    wall_diode_green_light =
-    {
-      minimum_darkness = 0.3,
-      color = {g=1},
-      shift = {0, -0.78125},
-      size = 1,
-      intensity = 0.3
-    },
-    wall_diode_red =
-    {
-      filename = "__base__/graphics/entity/gate/wall-diode-red.png",
-      width = 21,
-      height = 22,
-      shift = {0, -0.78125}
-    },
-    wall_diode_red_light =
-    {
-      minimum_darkness = 0.3,
-      color = {r=1},
-      shift = {0, -0.78125},
-      size = 1,
-      intensity = 0.3
-    },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     open_sound =
     {
